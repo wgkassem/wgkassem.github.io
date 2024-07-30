@@ -1,0 +1,17 @@
+
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: ./Dockerfile
+      target: base
+
+    image: my-website-server
+    ports:
+      - "80:80"
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspace
+
+    command: ["tail", "-f", "/dev/null"]

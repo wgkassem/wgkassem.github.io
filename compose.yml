@@ -1,0 +1,9 @@
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-website-server
+    ports:
+      - "80:80"
