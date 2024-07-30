@@ -6,10 +6,11 @@ RUN npm install -g hexo-cli
 FROM base AS build
 
 COPY . /workspace
+RUN hexo generate
 
 FROM nginx:1.21.3-alpine
 
-COPY --from=build /workspace/dist /usr/share/nginx/html
+COPY --from=build /workspace/public /usr/share/nginx/html
 
 EXPOSE 80
 
