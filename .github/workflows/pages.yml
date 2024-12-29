@@ -31,8 +31,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build
-        run: npm run build
         continue-on-error: false
+        run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
