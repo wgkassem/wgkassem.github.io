@@ -2,7 +2,7 @@
 title: Semaphores
 date: 2024-10-16
 tags: [concurrency, synchronization, low-level, c, c++, posix, linux, macos]
-categories: [research, learning]
+categories: [research]
 ---
 
 # Introduction
