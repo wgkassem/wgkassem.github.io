@@ -30,6 +30,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install --force
+      - name: Get bulma version
+        run: npm show bulma version
       - name: Build
         continue-on-error: false
         run: npm run build
