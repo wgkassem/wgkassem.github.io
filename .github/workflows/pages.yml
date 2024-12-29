@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    continue-on-error: false
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,6 +33,7 @@ jobs:
       - name: Build
         continue-on-error: false
         run: npm run build
+        continue-on-error: false
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
