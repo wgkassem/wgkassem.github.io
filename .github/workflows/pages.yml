@@ -31,7 +31,7 @@ jobs:
       - name: Install Dependencies
         run: npm install --force
       - name: Get bulma version
-        run: npm show bulma version
+        run: npm show bulma-stylus version
       - name: Build
         continue-on-error: false
         run: npm run build
