@@ -1,4 +1,0 @@
-[submodule "themes/icarus"]
-	path = themes/icarus
-	url = https://github.com/wgkassem/hexo-theme-icarus.git
-        branch = night4

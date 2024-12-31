@@ -1200,7 +1200,7 @@ buffer-from@^1.0.0:
   resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-bulma-stylus@^0.8.0:
+bulma-stylus@^0.8.0, bulma-stylus@0.8.0:
   version "0.8.0"
   resolved "https://registry.npmjs.org/bulma-stylus/-/bulma-stylus-0.8.0.tgz"
   integrity sha512-9Q9BMPeHFyJ5EWh/tJPCcLDYEovKzUBOyMHsKEIyxSYEKG8wqt9RVuTumaJ2AfDjyHC9OifWKOfJSweKYD5IMQ==
@@ -1449,7 +1449,7 @@ decimal.js@^10.4.2:
   resolved "https://registry.npmjs.org/decimal.js/-/decimal.js-10.4.3.tgz"
   integrity sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -1805,7 +1805,7 @@ hexo-i18n@^2.0.0:
   dependencies:
     sprintf-js "^1.1.2"
 
-hexo-log@^4.0.1:
+hexo-log@^4.0.1, hexo-log@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/hexo-log/-/hexo-log-4.1.0.tgz"
   integrity sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q==
@@ -1847,7 +1847,7 @@ hexo-renderer-marked@^6.0.0:
     jsdom "^20.0.1"
     marked "^4.3.0"
 
-hexo-renderer-stylus@^3.0.0:
+hexo-renderer-stylus@^3.0.0, hexo-renderer-stylus@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-3.0.1.tgz"
   integrity sha512-cFm8ZwShBBeFcQwOXc8EK7lIZnSYVD6OJykdL4GBw99hxc4eD5Hlsi32nRzE8sgKv00jhX1s9Da3GVVFMPAVQg==
@@ -1868,6 +1868,24 @@ hexo-server@^3.0.0:
     open "^8.0.9"
     picocolors "^1.0.0"
     serve-static "^1.14.1"
+
+"hexo-theme-icarus@github:wgkassem/hexo-theme-icarus#night4":
+  version "6.1.1"
+  resolved "git+ssh://git@github.com/wgkassem/hexo-theme-icarus.git#98e4a6126fe670214ad3f5d024d57331ac81feda"
+  dependencies:
+    bulma-stylus "0.8.0"
+    deepmerge "^4.3.1"
+    hexo "^7.1.1"
+    hexo-component-inferno "^3.1.2"
+    hexo-log "^4.1.0"
+    hexo-pagination "^3.0.0"
+    hexo-renderer-inferno "^1.0.2"
+    hexo-renderer-stylus "^3.0.1"
+    hexo-util "^3.2.0"
+    inferno "^8.2.3"
+    inferno-create-element "^8.2.3"
+    moment "^2.30.1"
+    semver "^7.5.4"
 
 hexo-theme-landscape@^1.0.0:
   version "1.0.0"

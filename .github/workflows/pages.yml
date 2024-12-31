@@ -14,7 +14,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: recursive
       - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
@@ -29,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
-        run: npm install --force
+        run: npm ci
       - name: Get bulma-stylus css fw version
         run: npm show bulma-stylus version
       - name: Build
