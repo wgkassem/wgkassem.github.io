@@ -1,16 +1,26 @@
 services:
-  dev:
+  wgkassem.github.io-dev:
     build:
       context: ..
       dockerfile: ./Dockerfile
       target: base
 
     image: my-website-server
-    ports:
-      - "80:4000"
     volumes:
       - type: bind
         source: ..
         target: /workspace
 
     command: ["tail", "-f", "/dev/null"]
+
+  wgkassem.github.io-serve:
+    image: "nginx:1.21.3-alpine"
+    ports:
+      - "80:80"
+    volumes:
+      - type: bind
+        source: ../public
+        target: /usr/share/nginx/html
+    depends_on:
+      - dev
+    command: ["nginx", "-g", "daemon off;"]

@@ -5,7 +5,13 @@ Sharing my thoughts, ideas, and projects.
 
 # Dependencies
 
-- Docker
+- npm
+- git
+
+## Loose dependencies
+
+- [forked icarus theme](https://wgkassem.github.com/hexo-theme-icarus)
+- More can be found in [package.json](./package.json)
 
 # Building and running
 
@@ -16,10 +22,13 @@ docker compose up -d --build
 
 # Development
 
-You shouldn't need to, but just in case you need to debug why the backend/page is not working as expected:
-
 
 ```bash
 docker compose -f .devcontainer/compose.yml up -d --build
 docker compose -f ./devcontainer/compose.yml exec sh
+npm ci  # or npm install
+npm run build
 ```
+
+git-commit any changes to source or dependencies.
+See [reproducible builds](./source/_posts/npm_force_install.md).
