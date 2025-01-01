@@ -2,8 +2,11 @@
 title: Craftsman Guide
 Description: Kickstart a craftsman's approach to software development
 date: 2024-12-31
-tags: ["craftsman"]
-categories: ["research"]
+tags:
+  - craftsman
+  - A Life Engineered
+categories:
+  - [research, books]
 ---
 
 [A Life Engineered](https://www.youtube.com/@ALifeEngineered) lists [So Good They Can't Ignore You](https://www.calnewport.com/books/so-good/) as a great inspiration in his video description.
