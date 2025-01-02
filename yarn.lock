@@ -1869,9 +1869,9 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-"hexo-theme-icarus@github:wgkassem/hexo-theme-icarus#night4":
+"hexo-theme-icarus@github:wgkassem/hexo-theme-icarus#leimao":
   version "6.1.1"
-  resolved "git+ssh://git@github.com/wgkassem/hexo-theme-icarus.git#98e4a6126fe670214ad3f5d024d57331ac81feda"
+  resolved "git+ssh://git@github.com/wgkassem/hexo-theme-icarus.git#fa8b71d2840b3cd917b2b8c7021b75efc79c472f"
   dependencies:
     bulma-stylus "0.8.0"
     deepmerge "^4.3.1"
