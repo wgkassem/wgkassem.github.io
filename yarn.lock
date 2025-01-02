@@ -1869,7 +1869,7 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-"hexo-theme-icarus@github:wgkassem/hexo-theme-icarus#night4":
+"hexo-theme-icarus@github:wgkassem/hexo-theme-icarus#leimao":
   version "6.1.1"
   resolved "git+ssh://git@github.com/wgkassem/hexo-theme-icarus.git#16bef101740b1153d59d8df4244d3d14620f7011"
   dependencies:
