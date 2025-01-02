@@ -4,8 +4,8 @@ description: How to deal with rejection
 date: 2025-01-01
 tags: [rejection, life]
 categories:
- - [research, life]
- ---
+- [research, life]
+---
 
 One of the most important skills I've had to learn, the hard way, is how to deal with rejection.
 
