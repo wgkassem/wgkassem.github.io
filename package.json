@@ -28,6 +28,6 @@
     "hexo-theme-icarus": "github:wgkassem/hexo-theme-icarus#leimao",
     "inferno": "^8.2.3",
     "inferno-create-element": "^8.2.3",
-    "semver": "^7.6.3"
+    "semver": "^7.7.0"
   }
 }
